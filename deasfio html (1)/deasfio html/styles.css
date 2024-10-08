@@ -1,0 +1,91 @@
+
+/* Estilo para cabeçalhos */
+h1 {
+    color: #2E8B57;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #4682B4;
+    font-family: 'Georgia', serif;
+    margin-top: 30px;
+    text-align: left;
+}
+
+h3 {
+    color: #B22222;
+    font-family: Verdana, sans-serif;
+    text-align: center;
+}
+
+/* Estilo para parágrafos */
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Estilo para imagens e legendas */
+figure {
+    text-align: center;
+    margin: 20px 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ccc;
+}
+
+figcaption {
+    font-size: 14px;
+    font-style: italic;
+    color: #555;
+    margin-top: 5px;
+}
+
+/* Estilo geral do corpo */
+body {
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+header, footer {
+    background-color: #2E8B57;
+    color: white;
+    padding: 10px 0;
+}
+.menu{
+    list-style:none;
+    border:1px solid #c0c0c0;
+    float:left;
+    }
+.menu li{
+        position:relative;
+        float:left;
+        border-right:1px solid #c0c0c0;
+        }
+.menu li a{
+    color:#333; 
+    text-decoration:none; 
+    padding:5px 10px; 
+    display:block;
+}
+
+.menu li a:hover{
+        background:#333;
+        color:#fff;
+        text-shadow:0px 0px 5px #fff;
+        }
+        .menu li  ul{
+            position:absolute;
+            top:25px;
+            left:0;
+            background-color:#fff;
+            display:none;
+            }
